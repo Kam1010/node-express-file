@@ -84,6 +84,4 @@ router.post('/logout', verifyToken, (req, res) => {
     res.json({ message: 'Logout successful.' });
 });
 
-// Add other routes for CRUD operations (create, update, delete)
-
 module.exports = router;
